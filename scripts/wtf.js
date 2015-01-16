@@ -227,9 +227,8 @@ var WTF = (function() {
             
         $("#share-twitter").html(
             '<a href="https://twitter.com/intent/tweet?button_hashtag=spitzestifte&text='+
-            encodeURIComponent(idea.substring(0,115)+'..') +
-            '" class="twitter-hashtag-button" data-related="tripletwenty_" data-url="http://bearbob.github.io/RoedersLoot/' +
-            '?id=' + ref + 
+            encodeURIComponent("Geronimo wird..." + idea.substring(0,140)) +
+            '" class="twitter-hashtag-button" data-related="tripletwenty_" data-url="http://bearbob.github.io/RoedersLoot' + 
             '">Tweet #spitzestifte</a>'+
             ' <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>'
         );
