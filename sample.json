@@ -22,7 +22,11 @@
         "so lange brüllen, bis er @item bekommt.",
         "nachts @actor ausrauben, um @item zu stehlen",
         "die Truppe verlassen, falls er @item findet.",
-        "@actor ins Bein schießen, falls er nicht endlich @item bekommt."
+        "@actor ins Bein schießen, falls er nicht endlich @item bekommt.",
+        "sagen: 'Guten Tag, mein Name ist Geronimo Röder und ich möchte Ihre @prefobject.",
+        "sagen: 'Mein Name ist Geronimo Röder und ich beanspruche Ihre @prefobject.",
+        "sagen: 'Sie haben ein paar schöne @prefobject. Darf ich Sie looten?",
+        "sagen: 'Kann ich immer, treff ich immer."
     ],
     
     "actor": [
@@ -369,7 +373,10 @@
         "T-Shirt",
         "Eduard-Laser-Fanshirt",
         "Superbrot",
-        "Gewehr"
+        "Gewehr",
+        "rostiger Nagel",
+        "Fläschen voller Schweiß",
+        "Jadgmesser"
     ],
     
     "maleitem": [
