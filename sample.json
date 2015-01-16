@@ -11,7 +11,8 @@
         "MORE LOOT!!!!111",
         "Don't really give a fuck",
         "Das klingt schrecklich",
-        "Langweilig!"
+        "Langweilig!",
+        "Würde er niemals!"
     ],
 
     "template": [
@@ -19,15 +20,17 @@
         "eine Leiche durchsuchen, um @item zu finden.",
         "einen Verletzten durchsuchen, um @item zu bekommen.",
         "@actor den Trauernden opfern, um @item zu retten.",
+        "für @item ein Bilderrätsel lösen.",
+        "seine Gier auf @item vergessen, wenn er eine @adjective Frau sieht.",
         "so lange brüllen, bis er @item bekommt.",
         "mit schlechtem russischen Dialekt reden, wenn ihm dafür @item winkt.",
         "nachts @actor ausrauben, um @item zu stehlen.",
         "die Truppe verlassen, falls er @item findet.",
         "@actor ins Bein schießen, falls er nicht endlich @item bekommt.",
-        "sagen: 'Guten Tag, mein Name ist Geronimo Röder und ich möchte @prefobject.'",
-        "sagen: 'Mein Name ist Geronimo Röder und ich beanspruche @prefobject.'",
-        "sagen: 'Ich will @prefobject. Darf ich Sie looten?'",
-        "sagen: '@says'."
+        "sagen:<br> \"Guten Tag, mein Name ist Geronimo Röder und ich möchte @prefobject.\"",
+        "sagen:<br> \"Mein Name ist Geronimo Röder und ich beanspruche @prefobject.\"",
+        "sagen:<br> \"Ich will @prefobject. Darf ich Sie looten?\"",
+        "sagen:<br> \"@says\"."
     ],
     
     "says": [
@@ -37,7 +40,8 @@
         "Soll ich den Liebesbrief Korrekturlesen?",
         "Wenn du uns verarschst, gehen wir zu dem Mann und erzählen ihm ALLES!",
         "Entschuldigen Sie, mein Name ist Geronimo Röder.",
-        "Ich bin nur der Promoter hier und stehe nicht zur Verfügung."
+        "Ich bin nur der Promoter hier und stehe nicht zur Verfügung.",
+        "Ich kenn deine Mutter sehr gut."
     ],
     
     "actor": [
@@ -365,7 +369,7 @@
         "allerletztes Snickers",
         "RocketBeans-Fanshirt",
         "bisschen Sehnsucht",
-        "eigenes Gefägnis zu bekommen"
+        "eigenes Gefängnis zu bekommen"
     ],
     
     "neutraladjectiv": [
@@ -388,8 +392,10 @@
         "rostigen Nagel",
         "VHS-Rekorder",
         "Pfeil",
+        "Ziegelstein",
         "schlechten Wortwitz",
         "zweiten Bogen",
+        "Flummi von Sergej",
         "Schneidezahn",
         "Backenzahn",
         "Rubikcube",

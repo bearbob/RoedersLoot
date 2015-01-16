@@ -26,13 +26,13 @@ body {
 }
 
 #wrapper {
-	width: 700px;
+	width: 750px;
 	margin: 0 auto;
 }
 
 header, article {
 	font-weight: 800;
-	color: #ffffff;
+	color: #a1a1a1;
 }
 
 header {
@@ -48,7 +48,7 @@ header h1 {
 #output {
 	font-size: 40px;
 	line-height: 40px;
-	margin: 60px 75px;
+	margin: 60px 100px;
 }
 
 #output.animate {
@@ -74,12 +74,22 @@ noscript {
 #generate {
 	text-decoration: none;
 	font-size: 20px;
+    width: 150px;
 	color: #fff;
+    position: fixed;
+    left: 25px;
+    bottom: 50px;
+    
+    background-color: #2a2e31;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 0 6px 6px 0;
+    padding: 7px 15px;
 }
 
 #generate:hover {
-	text-decoration: underline;
-	color: #555555;
+	color: #2a2e31;
+    background-color: #fff;
 }
 
 aside {
