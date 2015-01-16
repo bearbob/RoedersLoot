@@ -27,7 +27,13 @@
         "sagen: 'Guten Tag, mein Name ist Geronimo Röder und ich möchte @prefobject.'",
         "sagen: 'Mein Name ist Geronimo Röder und ich beanspruche @prefobject.'",
         "sagen: 'Ich will @prefobject. Darf ich Sie looten?'",
-        "sagen: 'Kann ich immer, treff ich immer.'"
+        "sagen: '@says'."
+    ],
+    
+    "says": [
+        "Kann ich immer, treff ich immer.",
+        "Guten Tag, mein Name ist Geronimo Röder und ich wohne hier.",
+        "Ich habe einen Wert von 11 auf mentale Stärke. Mich lässt das kalt"
     ],
     
     "actor": [
