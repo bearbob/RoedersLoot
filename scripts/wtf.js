@@ -226,11 +226,11 @@ var WTF = (function() {
         );
             
         $("#share-twitter").html(
-            '<a href="https://twitter.com/intent/tweet?button_hashtag=wtfdsa&text='+
+            '<a href="https://twitter.com/intent/tweet?button_hashtag=spitzestifte&text='+
             encodeURIComponent(idea.substring(0,115)+'..') +
-            '" class="twitter-hashtag-button" data-related="tripletwenty_" data-url="http://bearbob.github.io/WTFDSA/' +
+            '" class="twitter-hashtag-button" data-related="tripletwenty_" data-url="http://bearbob.github.io/RoedersLoot/' +
             '?id=' + ref + 
-            '">Tweet #wtfdsa</a>'+
+            '">Tweet #spitzestifte</a>'+
             ' <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>'
         );
         
@@ -267,7 +267,7 @@ var WTF = (function() {
             ref += hex;
         }
 
-        if ( remove ){
+        if ( remove && list.length > 1 ){
             //at position index 1 item will be removed
             list.splice( index, 1 );
         }
