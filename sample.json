@@ -21,7 +21,7 @@
         "@actor den Trauernden opfern, um @item zu retten.",
         "so lange brüllen, bis er @item bekommt.",
         "mit schlechtem russischen Dialekt reden, wenn ihm dafür @item winkt.",
-        "nachts @actor ausrauben, um @item zu stehlen",
+        "nachts @actor ausrauben, um @item zu stehlen.",
         "die Truppe verlassen, falls er @item findet.",
         "@actor ins Bein schießen, falls er nicht endlich @item bekommt.",
         "sagen: 'Guten Tag, mein Name ist Geronimo Röder und ich möchte @prefobject.'",
@@ -33,7 +33,10 @@
     "says": [
         "Kann ich immer, treff ich immer.",
         "Guten Tag, mein Name ist Geronimo Röder und ich wohne hier.",
-        "Ich habe einen Wert von 11 auf mentale Stärke. Mich lässt das kalt"
+        "Ich habe einen Wert von 11 auf mentale Belastbarkeit. Mich lässt das kalt.",
+        "Soll ich den Liebesbrief Korrekturlesen?",
+        "Wenn du uns verarschst, gehen wir zu dem Mann und erzählen ihm ALLES!",
+        "Entschuldigen Sie, mein Name ist Geronimo Röder."
     ],
     
     "actor": [
@@ -441,12 +444,15 @@
         "blonde Perücke",
         "schwarze Perücke",
         "Elvisperücke",
+        "Erdnuss im Teigmantel",
         "Kopie von Day Of The Tentacle",
         "Ocarina von Link",
         "Dose Hundefutter",
         "Dose Katzenfutter",
         "Packung Katzenstreu",
         "@adjective Frau",
+        "Angel",
+        "Packung Fischköder",
         "Phiole mit Vanessas Tränen"
     ]
 }
