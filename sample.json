@@ -334,9 +334,9 @@
     ],
     
     "item": [
-        "ein @neutralitem",
-        "einen @maleitem",
-        "eine @femaleitem"
+        "ein @neutraladjectiv @neutralitem",
+        "einen @maleadjectiv @maleitem",
+        "eine @femaleadjectiv @femaleitem"
     ],
     
     "neutralitem": [
@@ -353,7 +353,17 @@
         "Jadgmesser mit StatTrak",
         "allerletztes Snickers",
         "RocketBeans-Fanshirt",
-        "ein eigenes Gefägnis zu bekommen"
+        "bisschen Sehnsucht",
+        "eigenes Gefägnis zu bekommen"
+    ],
+    
+    "neutraladjectiv": [
+        "",
+        "altes",
+        "abgenutztes",
+        "kaputtes",
+        "nagelneues",
+        "fabrikneues"
     ],
     
     "maleitem": [
@@ -384,30 +394,48 @@
         "Köcher voll mit vielen Pfeilen"
     ],
     
+    "maleadjectiv": [
+        "",
+        "alten",
+        "abgenutzten",
+        "kaputten",
+        "nagelneuen",
+        "fabrikneuen"
+    ],
+    
+    "femaleadjectiv": [
+        "",
+        "alte",
+        "abgenutzte",
+        "kaputte",
+        "nagelneue",
+        "fabrikneue"
+    ],
+    
     "femaleitem": [
         "schiefläufige Pistole",
         "verbogene Gabel",
         "Eduard-Laser-Biographie",
         "verlorene Hose von Schmorf",
         "RBTV-Fernsehzeitschrift",
-        "alte rostige Knarre",
+        "rostige Knarre",
         "zerfledderte Bibel",
         "rostige Kette",
         "defekte Handgranate",
         "löchrige Socke",
-        "Schrotflintenmunition",
+        "Packung Schrotflintenmunition",
         "letzte kubanische Zigarre",
         "leere Bierflasche",
         "allerletzte Milchschnitte",
         "Batterie",
         "blonde Perücke",
         "schwarze Perücke",
-        "alte Elvisperücke",
+        "Elvisperücke",
         "Kopie von Day Of The Tentacle",
         "Ocarina von Link",
-        "eine Dose Hundefutter",
-        "eine Dose Katzenfutter",
-        "eine Packung Katzenstreu",
+        "Dose Hundefutter",
+        "Dose Katzenfutter",
+        "Packung Katzenstreu",
         "@adjective Frau",
         "Phiole mit Vanessas Tränen"
     ]
