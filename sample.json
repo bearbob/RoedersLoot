@@ -36,7 +36,8 @@
         "Ich habe einen Wert von 11 auf mentale Belastbarkeit. Mich lässt das kalt.",
         "Soll ich den Liebesbrief Korrekturlesen?",
         "Wenn du uns verarschst, gehen wir zu dem Mann und erzählen ihm ALLES!",
-        "Entschuldigen Sie, mein Name ist Geronimo Röder."
+        "Entschuldigen Sie, mein Name ist Geronimo Röder.",
+        "Ich bin nur der Promoter hier und stehe nicht zur Verfügung."
     ],
     
     "actor": [
@@ -359,7 +360,6 @@
         "Eduard-Laser-Fanshirt",
         "letztes Superbrot",
         "Gewehr",
-        "Karte mit Bildern drauf",
         "Fläschen voller Schweiß",
         "Jadgmesser mit StatTrak",
         "allerletztes Snickers",
@@ -430,6 +430,7 @@
         "verbogene Gabel",
         "@adjective Puppe",
         "Eduard-Laser-Biographie",
+        "Karte mit Bildern drauf",
         "verlorene Hose von Schmorf",
         "RBTV-Fernsehzeitschrift",
         "rostige Knarre",
