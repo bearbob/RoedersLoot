@@ -157,6 +157,7 @@ and (orientation : portrait) {
     }
     #output {
         margin-top: 65%;
+        line-height: 60px;
         font-size: 60px;
     }
 }
