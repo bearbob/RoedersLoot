@@ -145,7 +145,8 @@ and (orientation : portrait) {
     #generate {
         text-decoration: none;
         font-size: 40px;
-        width: 250px;
+        width: 350px;
+        min-height: 100px;
         position: fixed;
 
         background-color: #2a2e31;
@@ -155,6 +156,6 @@ and (orientation : portrait) {
         padding: 15px 30px;
     }
     #output {
-        margin-top: 30%;
+        margin-top: 55%;
     }
 }
