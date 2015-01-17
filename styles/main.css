@@ -35,15 +35,6 @@ header, article {
 	color: #a1a1a1;
 }
 
-@media only screen 
-and (orientation : portrait) {
-/* Styles */
-    header, article {
-        font-weight: 800;
-        color: #fff;
-    }
-}
-
 header {
 	margin-top: 60px;
 }
@@ -112,7 +103,6 @@ aside {
 	list-style: none;
 }
 
-#share-facebook {}
 #share-twitter {position: relative; top: -1px;}
 .twitter-share-button {
 	font-size: 11px;	
@@ -138,4 +128,33 @@ footer a {
 
 footer a:hover {
 	text-decoration: underline;
+}
+
+/************************************
+ * Smartphones                      *
+ ***********************************/
+
+@media only screen 
+and (orientation : portrait) {
+/* Styles */
+    header, article {
+        font-weight: 800;
+        color: #fff;
+    }
+    
+    #generate {
+        text-decoration: none;
+        font-size: 40px;
+        width: 250px;
+        position: fixed;
+
+        background-color: #2a2e31;
+        border-radius: 10px;
+        display: inline-block;
+        margin: 0 6px 6px 0;
+        padding: 15px 30px;
+    }
+    #output {
+        margin-top: 260px;
+    }
 }
