@@ -155,6 +155,6 @@ and (orientation : portrait) {
         padding: 15px 30px;
     }
     #output {
-        margin-top: 260px;
+        margin-top: 30%;
     }
 }
