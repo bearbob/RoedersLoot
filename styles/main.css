@@ -138,7 +138,7 @@ footer a:hover {
 and (orientation : portrait) {
 /* Styles */
     header, article {
-        font-weight: 1000;
+        font-weight: 800;
         color: #fff;
     }
     
@@ -157,6 +157,6 @@ and (orientation : portrait) {
     }
     #output {
         margin-top: 65%;
+        font-size: 60px;
     }
-
 }
