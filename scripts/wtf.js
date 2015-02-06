@@ -51,12 +51,42 @@ var WTF = (function() {
         buildRexExp();
         generate();
         
-        // A rough calculation of the number of possible results
-        var sum = 0;
-        $.each(corpus, function (index, value) {
-            sum += value.length;
-        }); 
-        $("#count").text(sum);
+        count();
+        
+    }
+    
+    function count() {
+        /* single vars */
+        var packungcontent = 11;
+        var dosecontent = 12;
+        var femaleadjectiv = 16;
+        var maleadjectiv = 16;
+        var maleitem = 40;
+        var adjective = 221;
+        var neutraladjectiv = 18;
+        var glascontent = 11;
+        var haufencontent = 9;
+        var obstsorten = 10;
+        var prefobject = 67;
+        var femaleobject = 20;
+        var waldtierbeute = 22;
+        var actionforitem = 6;
+        var actor = 12;
+        var searchobject = 5;
+        var enemy = 4;
+        var readthis = 5;
+        var wohnort = 6;
+        /* connected vars */
+        var pieceof = 6 + obstsorten;
+        var femaleitem = 34 + (adjective * femaleobject) + packungcontent + dosecontent + adjective;
+        var neutralitem = 20 + haufencontent + glascontent + pieceof;
+        var item = (neutraladjectiv * neutralitem) + (maleadjectiv + maleitem) + (femaleadjectiv + femaleitem);
+        var says = 8 + (3* prefobject) + wohnort + readthis + waldtierbeute;
+        
+        /* root node */
+        var template = item*( 5 + searchobject + 3*actor + actionforitem) + enemy + 2*(adjective * femaleobject) + says;
+        
+        $("#count").text(template);
     }
 
     /*
@@ -225,15 +255,17 @@ var WTF = (function() {
             '</dl>'
         );
             
+        var tweet = "Geronimo wird " + idea;
         $("#share-twitter").html(
-            '<a href="https://twitter.com/intent/tweet?button_hashtag=spitzestifte&text='+
-            encodeURIComponent("Geronimo wird..." + idea.substring(0,140)) +
-            '" class="twitter-hashtag-button" data-related="tripletwenty_" data-url="http://bearbob.github.io/RoedersLoot' + 
-            '">Tweet #spitzestifte</a>'+
+            '<a href="https://twitter.com/intent/tweet?button_hashtag=roedersimulator&text='+
+            encodeURIComponent(tweet.substring(0,140)) +
+            '" class="twitter-hashtag-button" data-related="tripletwenty_" data-via="tripletwenty_" ' + 
+            ' data-show-count="true">Tweet #spitzestifte</a>'+
             ' <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>'
         );
         
-        console.log("ref: "+ ref);
+        
+        //console.log("ref: "+ ref);
 
         // Toggle animation
 

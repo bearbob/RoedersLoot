@@ -12,9 +12,13 @@ body {
 	font-family: Georgia, Helvetica, Arial, sans-serif;
 	text-transform: uppercase;
 	height: 100%;
-    background-color: #000;
+    min-width: 1200px;
+    min-height: 600px;
+    background-color: #fcfbf7;
+    /*
     background-image: url('roederbg.png');
     background-repeat: no-repeat;
+    */
 }
 
 .loading {
@@ -25,18 +29,30 @@ body {
 	top: 50%;
 }
 
+#nilsimage {
+    position: absolute;
+    z-index: 0;
+    left: 0px;
+    top: -30px;
+}
+
 #wrapper {
 	width: 750px;
 	margin: 0 auto;
+    z-index: 5;
 }
 
-header, article {
+article {
 	font-weight: 800;
-	color: #a1a1a1;
+	color: #2a2e31;
+    position: absolute;
+    z-index: 2;
 }
 
 header {
 	margin-top: 60px;
+    font-weight: 800;
+	color: #a1a1a1;
 }
 
 header h1 {
@@ -94,16 +110,20 @@ noscript {
 
 aside {
 	position: absolute;
-	margin: 12px 8px;
+	margin: 5px 0px;
 	right: 0;
 	top: 0;
 }
 
 #share li {
 	list-style: none;
+    display: inline;
 }
 
-#share-twitter {position: relative; top: -1px;}
+#share-twitter {
+    position: relative; 
+    top: -1px;
+}
 .twitter-share-button {
 	font-size: 11px;	
 	color: #000;
@@ -111,7 +131,7 @@ aside {
 
 footer {
 	text-transform: none;
-	position: fixed;
+	position: absolute;
 	text-align: right;
 	line-height: 16px;
 	font-size: 12px;

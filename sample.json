@@ -3,7 +3,8 @@
         "Ich bin mir sicher, Geronimo wird...",
         "Heute Abend wird Geronimo...",
         "Also wenn ich Geronimo wäre, würde ich...",
-        "Als nächstes wird Geronimo..."
+        "Als nächstes wird Geronimo...",
+        "Eine seltsame Nacht, Geronimo träumte er würde..."
     ],
 
     "response": [
@@ -12,36 +13,75 @@
         "Don't really give a fuck",
         "Das klingt schrecklich",
         "Langweilig!",
+        "More stories",
+        "Tell me more, tell me more!",
         "Würde er niemals!"
     ],
 
     "template": [
         "für @item jemanden umbringen.",
         "eine Leiche durchsuchen, um @item zu finden.",
-        "einen Verletzten durchsuchen, um @item zu bekommen.",
+        "einen @searchobject durchsuchen, um @item zu bekommen.",
         "@actor den Trauernden opfern, um @item zu retten.",
-        "für @item ein Bilderrätsel lösen.",
-        "seine Gier auf @item vergessen, wenn er eine @adjective Frau sieht.",
+        "für @item @actionforitem.",
+        "versuchen vor @enemy in den Wald zu fliehen.",
+        "seine Gier auf @item vergessen, wenn er eine @adjective @femaleobject sieht.",
+        "in eine Falle tappen, da er einer @adjectiven @femaleobject nicht widerstehen kann.",
         "so lange brüllen, bis er @item bekommt.",
         "mit schlechtem russischen Dialekt reden, wenn ihm dafür @item winkt.",
         "nachts @actor ausrauben, um @item zu stehlen.",
         "die Truppe verlassen, falls er @item findet.",
         "@actor ins Bein schießen, falls er nicht endlich @item bekommt.",
-        "sagen:<br> \"Guten Tag, mein Name ist Geronimo Röder und ich möchte @prefobject.\"",
-        "sagen:<br> \"Mein Name ist Geronimo Röder und ich beanspruche @prefobject.\"",
-        "sagen:<br> \"Ich will @prefobject. Darf ich Sie looten?\"",
-        "sagen:<br> \"@says\"."
+        "sagen: \"@says\"."
     ],
     
     "says": [
         "Kann ich immer, treff ich immer.",
-        "Guten Tag, mein Name ist Geronimo Röder und ich wohne hier.",
+        "Ich will @prefobject. Darf ich Sie looten?",
+        "Guten Tag, mein Name ist Geronimo Röder und ich möchte @prefobject.",
+        "Mein Name ist Geronimo Röder und ich beanspruche @prefobject.",
+        "Guten Tag, mein Name ist Geronimo Röder und ich wohne @wohnort.",
         "Ich habe einen Wert von 11 auf mentale Belastbarkeit. Mich lässt das kalt.",
-        "Soll ich den Liebesbrief Korrekturlesen?",
+        "Soll ich @readthis Korrekturlesen?",
         "Wenn du uns verarschst, gehen wir zu dem Mann und erzählen ihm ALLES!",
         "Entschuldigen Sie, mein Name ist Geronimo Röder.",
         "Ich bin nur der Promoter hier und stehe nicht zur Verfügung.",
-        "Ich kenn deine Mutter sehr gut."
+        "Ich kenn deine Mutter sehr gut.",
+        "Mit Menschen kann ich nicht so gut.",
+        "Mein Anrufbeantworter sagt: 'Guten Tag, hier spricht Geronimo Röder. Ich wohne im Wald, hier gibts keinen Strom, ich besitze kein Telefon und auch keinen Anrufbeantworter, wenn Sie diese Nachricht hören, sind sie verrückt.",
+        "Alles ist Beute. Das gilt auch für @waldtierbeute."
+    ],
+    
+    "wohnort": [
+        "hier",
+        "in diesem Haus",
+        "in diesem Wald",
+        "im Wald",
+        "bei deiner Mutter",
+        "auf diesem Boot"
+    ],
+    
+    "readthis": [
+        "den Liebesbrief",
+        "das Testament",
+        "diese Autobiographie",
+        "die mechanische Konstruktion",
+        "die Doktorarbeit"
+    ],
+    
+    "enemy": [
+        "Stanley Balls",
+        "einer Horder Trauernder",
+        "einem Trauernden",
+        "Schmorfs Brusthaaren"
+    ],
+    
+    "searchobject": [
+        "Verletzten",
+        "Haufen Nadeln",
+        "Leichnam",
+        "Raum ohne Licht",
+        "Raum voller Trauernder"
     ],
     
     "actor": [
@@ -50,8 +90,70 @@
         "Schmorf",
         "Gamemaster Hauke",
         "die Regie",
+        "Vanessa",
         "Dressurwurm Hauke",
-        "Pavian Döhler"
+        "Pavian Döhler",
+        "Professor Winterkorn",
+        "Sergej",
+        "Vanessa",
+        "Thore"
+    ],
+    
+    "actionforitem": [
+        "ein Bilderrätsel lösen",
+        "einen Mord vertuschen",
+        "eine Religion gründen",
+        "Kanibalismus akzeptieren",
+        "eine Morgenshow moderieren",
+        "ein abenteuerliches Wagnis eingehen"
+    ],
+    
+    "waldtierbeute": [
+        "Rotwild", 
+        "Dammwild", 
+        "den Dachs", 
+        "den Fuchs", 
+        "die Amsel", 
+        "die Drossel", 
+        "den Sperber", 
+        "den Specht", 
+        "das Eichhörnchen", 
+        "Vögel aller Art", 
+        "Kühe, die aus der Weide ausgebüchst und in den Wald integriert sind,",
+        "die Waldschildkröte", 
+        "den Waldelch", 
+        "den Waldadler", 
+        "Waldelefanten", 
+        "das Waldgnu", 
+        "die Waldgiraffe", 
+        "den Waldlöwe", 
+        "den Waldpanther", 
+        "den Waldtiger", 
+        "die Waldente", 
+        "den Waldschrat"
+    ],
+    
+    "femaleobject": [
+        "Frau", 
+        "Dame",
+        "Dirne",
+        "Bardame",
+        "Kellnerin",
+        "Wissenschaftlerin",
+        "Jägerin",
+        "Putzfrau",
+        "Sekretärin",
+        "Stylistin",
+        "Diva",
+        "Schauspielerin",
+        "Kriegerin",
+        "Tänzerin",
+        "Köchin",
+        "Langstreckenläuferin",
+        "Fleischwarenfachverkäuferin",
+        "Wurstwarenspezialistin",
+        "Nonne",
+        "Praktikantin"
     ],
     
     "prefobject": [
@@ -355,29 +457,99 @@
     ],
     
     "neutralitem": [
-        "Stück Haut",
-        "benutztes Wattestäbchen",
-        "vorhin verlorengegangenes Schamhaar",
+        "Stück @pieceof",
+        "Wattestäbchen",
+        "Schamhaar",
         "Messer",
+        "Feuerzeug",
         "T-Shirt",
+        "Sporttrikot",
+        "Lebkuchenhäuschen",
         "Super Nintendo",
         "Eduard-Laser-Fanshirt",
-        "letztes Superbrot",
+        "Superbrot",
         "Gewehr",
-        "Fläschen voller Schweiß",
+        "Kanonenpulver",
+        "Sushi",
+        "Eichhörnchenauge",
+        "Paar Fußballschuhe",
+        "Fläschen voller @glascontent",
+        "Glas voller @glascontent",
         "Jadgmesser mit StatTrak",
-        "allerletztes Snickers",
+        "Snickers",
+        "Häufchen @haufencontent",
         "RocketBeans-Fanshirt",
         "bisschen Sehnsucht",
-        "eigenes Gefängnis zu bekommen"
+        "eigenes Gefängnis"
+    ],
+    
+    "pieceof": [
+        "Haut",
+        "Baumrinde",
+        "Erbrochenes",
+        "Wurzel",
+        "Schorf",
+        "Kuchen",
+        "@obstsorten"
+    ],
+    
+    "obstsorten": [
+        "Banane",
+        "Ananas",
+        "Apfel",
+        "Birne",
+        "Pomelo",
+        "Orange",
+        "Pfirsich",
+        "Mandarine",
+        "Kiwi",
+        "Kokosnuss"
+    ],
+    
+    "haufencontent": [
+        "Kokain",
+        "Heroin",
+        "Canabis",
+        "Elend",
+        "Salz",
+        "Zucker",
+        "Pfeffer",
+        "Curry",
+        "Zimt"
+    ],
+    
+    "glascontent": [
+        "Schweiß",
+        "Marmelade",
+        "Wasser",
+        "Salzwasser",
+        "Tränen",
+        "Erdnussbutter",
+        "Schnaps",
+        "ranziges Öl",
+        "Nüsse",
+        "Bier",
+        "Wein"
     ],
     
     "neutraladjectiv": [
         "",
+        "benutztes",
+        "vorhin verlorengegangenes",
         "altes",
+        "feines",
+        "staubiges",
+        "fabulöses",
+        "allerletztes",
+        "letztes",
         "abgenutztes",
         "kaputtes",
         "nagelneues",
+        "rotes",
+        "grünes",
+        "blaues",
+        "oranges",
+        "pinkes",
         "fabrikneues"
     ],
     
@@ -388,18 +560,27 @@
         "Hammer von Uta",
         "Sack voller Bienen",
         "Affenkopf",
+        "Kopf des Navigators",
         "Diamant, handgepresst aus einem Stück Kohle,",
         "rostigen Nagel",
         "VHS-Rekorder",
         "Pfeil",
+        "Schlüssel",
+        "Minzdrop",
         "Ziegelstein",
+        "Tennisschläger",
         "schlechten Wortwitz",
         "zweiten Bogen",
+        "Kuchen",
+        "Bauklotz",
         "Flummi von Sergej",
         "Schneidezahn",
         "Backenzahn",
         "Rubikcube",
         "Teebeutel",
+        "Zahnstocher",
+        "Liebesbrief",
+        "Glaskrug",
         "offensichtlich benutzten Vibrator",
         "Companion Cube",
         "Löffel",
@@ -418,18 +599,38 @@
     "maleadjectiv": [
         "",
         "alten",
+        "zerkratzten",
+        "benutzten",
+        "feinen",
+        "staubigen",
+        "fabulösen",
         "abgenutzten",
         "kaputten",
         "nagelneuen",
+        "roten",
+        "grünen",
+        "blauen",
+        "orangen",
+        "pinken",
         "fabrikneuen"
     ],
     
     "femaleadjectiv": [
         "",
         "alte",
+        "zerkratzte",
+        "benutzte",
+        "staubige",
+        "fabulöse",
+        "feine",
         "abgenutzte",
         "kaputte",
         "nagelneue",
+        "rote",
+        "grüne",
+        "blaue",
+        "orange",
+        "pinke",
         "fabrikneue"
     ],
     
@@ -437,12 +638,18 @@
         "schiefläufige Pistole",
         "verbogene Gabel",
         "@adjective Puppe",
+        "Hornbrille",
+        "Banane",
+        "Kanonenkugel",
+        "Visitenkarte",
         "Eduard-Laser-Biographie",
         "Karte mit Bildern drauf",
         "verlorene Hose von Schmorf",
         "RBTV-Fernsehzeitschrift",
         "rostige Knarre",
+        "Wurzel",
         "zerfledderte Bibel",
+        "Raketenbohne",
         "rostige Kette",
         "defekte Handgranate",
         "löchrige Socke",
@@ -452,17 +659,48 @@
         "allerletzte Milchschnitte",
         "Batterie",
         "blonde Perücke",
+        "Fässchen Tinte",
+        "Piratenflagge",
         "schwarze Perücke",
         "Elvisperücke",
         "Erdnuss im Teigmantel",
         "Kopie von Day Of The Tentacle",
         "Ocarina von Link",
-        "Dose Hundefutter",
-        "Dose Katzenfutter",
-        "Packung Katzenstreu",
-        "@adjective Frau",
+        "Dose @dosecontent",
+        "Packung @packungcontent",
+        "@adjective @femaleobject",
+        "Rolle Toilettenpapier",
         "Angel",
         "Packung Fischköder",
         "Phiole mit Vanessas Tränen"
+    ],
+    
+    "dosecontent": [
+        "Hundefutter",
+        "Katzenfutter",
+        "Vogelfutter",
+        "Mitleid",
+        "Bohnen",
+        "Raktenbohnen",
+        "Erbsen",
+        "Mais",
+        "Erdbeeren",
+        "Nudeln",
+        "Würstchen",
+        "Lauch"
+    ],
+    
+    "packungcontent": [
+        "Katzenstreu",
+        "Liebe",
+        "Proteinpulver",
+        "Steroide",
+        "Gummibärchen",
+        "Chips",
+        "Flips",
+        "Heilerde",
+        "Schokoküsse",
+        "Schundhefte",
+        "Pfeile"
     ]
 }
