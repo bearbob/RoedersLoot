@@ -59,32 +59,38 @@ var WTF = (function() {
         /* single vars */
         var packungcontent = 11;
         var dosecontent = 12;
-        var femaleadjectiv = 16;
-        var maleadjectiv = 16;
-        var maleitem = 40;
+        var adjectbase = 15;
+        var color = 9;
         var adjective = 221;
-        var neutraladjectiv = 18;
-        var glascontent = 11;
+        var glascontent = 15;
         var haufencontent = 9;
         var obstsorten = 10;
         var prefobject = 67;
-        var femaleobject = 20;
+        var femaleobject = 24;
         var waldtierbeute = 22;
-        var actionforitem = 6;
         var actor = 12;
-        var searchobject = 5;
-        var enemy = 4;
-        var readthis = 5;
+        var teammembers = 3;
+        var enemy = 6;
+        var readthis = 9;
         var wohnort = 6;
+        var indrhyme = 5;
+        var dothis = 8;
         /* connected vars */
+        var maleitem = 39 + color;
+        var searchobject = 6 + teammembers;
+        var actionforitem = 8 + (adjective * femaleobject * dothis);
         var pieceof = 6 + obstsorten;
-        var femaleitem = 34 + (adjective * femaleobject) + packungcontent + dosecontent + adjective;
+        var femaleadjectiv = 1 + adjectbase;
+        var maleadjectiv = 1 + adjectbase;
+        var neutraladjectiv = 1 + adjectbase;
+        var femaleitem = 33 + (adjective * femaleobject) + packungcontent + dosecontent + adjective;
         var neutralitem = 20 + haufencontent + glascontent + pieceof;
         var item = (neutraladjectiv * neutralitem) + (maleadjectiv + maleitem) + (femaleadjectiv + femaleitem);
         var says = 8 + (3* prefobject) + wohnort + readthis + waldtierbeute;
+        var poem = indrhyme;
         
         /* root node */
-        var template = item*( 5 + searchobject + 3*actor + actionforitem) + enemy + 2*(adjective * femaleobject) + says;
+        var template = item*( 5 + searchobject + 3*actor + actionforitem) + enemy + 2*(adjective * femaleobject) + says + poem;
         
         $("#count").text(template);
     }

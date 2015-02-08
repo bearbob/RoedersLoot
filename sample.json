@@ -32,7 +32,8 @@
         "nachts @actor ausrauben, um @item zu stehlen.",
         "die Truppe verlassen, falls er @item findet.",
         "@actor ins Bein schießen, falls er nicht endlich @item bekommt.",
-        "sagen: \"@says\"."
+        "sagen: \"@says\".",
+        "ein Gedicht gewidmet bekommen: @poem"
     ],
     
     "says": [
@@ -66,14 +67,20 @@
         "das Testament",
         "diese Autobiographie",
         "die mechanische Konstruktion",
-        "die Doktorarbeit"
+        "die Doktorarbeit",
+        "die DVD-Rekorder-Anleitung",
+        "die Nährwerttabelle",
+        "die Speisekarte",
+        "das Röntgenbild"
     ],
     
     "enemy": [
         "Stanley Balls",
-        "einer Horder Trauernder",
+        "einer Horde Trauernder",
         "einem Trauernden",
-        "Schmorfs Brusthaaren"
+        "Schmorfs Brusthaaren",
+        "einer Horde weiblicher Bewunderer",
+        "der Verantwortung"
     ],
     
     "searchobject": [
@@ -81,7 +88,15 @@
         "Haufen Nadeln",
         "Leichnam",
         "Raum ohne Licht",
-        "Raum voller Trauernder"
+        "Raum voller Trauernder",
+        "Sack voller schimmliger Kartoffeln",
+        "Rucksack von @teammembers"
+    ],
+    
+    "teammembers": [
+        "Stanley Balls",
+        "Schmorf",
+        "Zacharias Bergmann"
     ],
     
     "actor": [
@@ -105,7 +120,21 @@
         "eine Religion gründen",
         "Kanibalismus akzeptieren",
         "eine Morgenshow moderieren",
-        "ein abenteuerliches Wagnis eingehen"
+        "ein abenteuerliches Wagnis eingehen",
+        "eine Schlägerei anzetteln",
+        "den Ring in die Feuer des Schicksalsbergs werfen",
+        "mit einer @adjective @femaleobject @dothis"
+    ],
+    
+    "dothis": [
+        "tanzen",
+        "sprechen",
+        "singen",
+        "verschwinden",
+        "kämpfen",
+        "ringen",
+        "boxen",
+        "würfeln"
     ],
     
     "waldtierbeute": [
@@ -137,6 +166,9 @@
         "Frau", 
         "Dame",
         "Dirne",
+        "Gärtnerin",
+        "Babysitterin",
+        "Tierpflegerin",
         "Bardame",
         "Kellnerin",
         "Wissenschaftlerin",
@@ -144,6 +176,7 @@
         "Putzfrau",
         "Sekretärin",
         "Stylistin",
+        "Studentin",
         "Diva",
         "Schauspielerin",
         "Kriegerin",
@@ -529,28 +562,16 @@
         "ranziges Öl",
         "Nüsse",
         "Bier",
+        "Blut",
+        "Jauche",
+        "Erde",
+        "Alkohol",
         "Wein"
     ],
     
     "neutraladjectiv": [
         "",
-        "benutztes",
-        "vorhin verlorengegangenes",
-        "altes",
-        "feines",
-        "staubiges",
-        "fabulöses",
-        "allerletztes",
-        "letztes",
-        "abgenutztes",
-        "kaputtes",
-        "nagelneues",
-        "rotes",
-        "grünes",
-        "blaues",
-        "oranges",
-        "pinkes",
-        "fabrikneues"
+        "@adjectbases"
     ],
     
     "maleitem": [
@@ -591,34 +612,38 @@
         "blutgetränkten Backstein von Schmorf",
         "Kartoffelsack",
         "Taser",
-        "Opel Corsa",
+        "@coloren Opel Corsa",
         "Köcher voll mit vielen Pfeilen",
         "Busscheibeneinschlagshammerhalterungsvertriebsgesellschaftsvorstand"
     ],
     
+    "color": [
+        "rot",
+        "blau",
+        "grün",
+        "grau",
+        "gelb",
+        "schwarz",
+        "türkisfarben",
+        "golden",
+        "silbern"
+    ],
+    
     "maleadjectiv": [
         "",
-        "alten",
-        "zerkratzten",
-        "benutzten",
-        "feinen",
-        "staubigen",
-        "fabulösen",
-        "abgenutzten",
-        "kaputten",
-        "nagelneuen",
-        "roten",
-        "grünen",
-        "blauen",
-        "orangen",
-        "pinken",
-        "fabrikneuen"
+        "@adjectbasen"
     ],
     
     "femaleadjectiv": [
         "",
+        "@adjectbase"
+    ],
+    
+    "adjectbase": [
         "alte",
         "zerkratzte",
+        "vorhin verlorengegangene",
+        "abgewetzte",
         "benutzte",
         "staubige",
         "fabulöse",
@@ -626,12 +651,10 @@
         "abgenutzte",
         "kaputte",
         "nagelneue",
-        "rote",
-        "grüne",
-        "blaue",
-        "orange",
-        "pinke",
-        "fabrikneue"
+        "fabrikneue",
+        "eingestaubte",
+        "vollgesabberte",
+        "blutverschmierte"
     ],
     
     "femaleitem": [
@@ -659,7 +682,6 @@
         "allerletzte Milchschnitte",
         "Batterie",
         "blonde Perücke",
-        "Fässchen Tinte",
         "Piratenflagge",
         "schwarze Perücke",
         "Elvisperücke",
@@ -702,5 +724,17 @@
         "Schokoküsse",
         "Schundhefte",
         "Pfeile"
+    ],
+    
+    "poem": [
+        "Wer lootet so spät durch Nacht und Wind? Es ist Geronimo@indrhyme."
+    ],
+    
+    "indrhyme": [
+        " auf seinem Rind",
+        " mit allen Dingen die lootbar sind",
+        " mit einem Kind",
+        ", für Gefahren blind",
+        ", andere behaupten er spinnt"
     ]
 }
